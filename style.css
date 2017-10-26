@@ -17,6 +17,11 @@
     margin-left: -240px;
 }
 
+.site-navigation,
+.post-navigation {
+    margin-top: 0;
+}
+
 .widget-area {
     width: 220px;
     margin-left: -240px;
@@ -47,6 +52,39 @@
 .single-column-layout .widget-area {
     width: 100%;
     margin-left: 0;
+}
+
+.entry-content > .sharedaddy,
+.entry-summary > .sharedaddy {
+    margin: 0 0;
+}
+
+.single .entry-meta,
+.page .entry-meta {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.single .entry-content,
+.single .entry-summary {
+    padding-bottom: 0;
+}
+
+.single article.post, .single article.page {
+    margin-bottom: 30px;
+}
+
+.comment-respond {
+    padding: 5px 10px 5px 20px;
+}
+
+h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+.form-submit {
+    padding-bottom: 1em;
 }
 
 @media only screen and (max-width: 1200px) {
